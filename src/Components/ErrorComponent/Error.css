@@ -1,0 +1,52 @@
+
+#oops {
+  margin: 0;
+  font-size: 6vw;
+  font-weight: 800 !important;
+  margin-top: 30px;
+}
+#divError{
+text-align: center;
+}
+
+#wrong {
+  font-size: 1.2vw;
+}
+
+.homebutton{
+  font-family: 'Montserrat', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding: 1em 2em;
+  margin-top: 1em;
+  margin-bottom: 60px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #44c5df;
+  color: #e3f6fa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: 0 2px 25px rgba(204, 200, 180, 0.5);
+}
+  .homebutton:hover {
+    background-color: #00badf;
+    color: white;
+  }
+  
+  .homebutton:focus {
+    outline: 0;
+  }
+  
+  .homebutton:before, .homebutton:after{
+    position: absolute;
+    content: '';
+    display: block;
+    width: 140%;
+    height: 100%;
+    left: -20%;
+    z-index: -1000;
+  }

@@ -1,0 +1,15 @@
+.login{
+    color: wheat;
+    float: right;
+}
+.login:hover{
+    font-size:medium;
+    color: grey;
+}
+#dropdown-basic{
+background: none;
+border: 0ch;
+}
+.addIcon,.searchIcon{
+    float: right;
+}
